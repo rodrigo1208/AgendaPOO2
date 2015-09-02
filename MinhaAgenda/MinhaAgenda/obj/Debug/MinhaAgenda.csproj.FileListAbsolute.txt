@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\bin\Debug\MinhaAgenda.exe.config
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\bin\Debug\MinhaAgenda.exe
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\bin\Debug\MinhaAgenda.pdb
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.Properties.Resources.resources
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.exe
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.pdb
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.PesquisarForm.resources
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.AgendaFrm.resources
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.view.AdicionarFrm.resources
+C:\Users\Usuario\Documents\Projetos POO2\MinhaAgenda\MinhaAgenda\obj\Debug\MinhaAgenda.view.Resultados.resources
