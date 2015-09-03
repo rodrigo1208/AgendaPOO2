@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MinhaAgenda.model
 {
-    class Contato
+    public class Contato
     {
         private int id;
         private string nome;
@@ -15,26 +15,23 @@ namespace MinhaAgenda.model
 
         public int Id
         {
-            get { return this.id; }
-            set { this.id = value; }
+            get { return id; }
+            set { id = value; }
         }
-
         public string Nome
         {
-            get { return this.nome; }
-            set { this.nome = value; }
+            get { return nome; }
+            set { nome = value; }
         }
-
         public string Email
         {
-            get { return this.email; }
-            set { this.email = value; }
+            get { return email; }
+            set { email = value; }
         }
-
         public string Telefone
         {
-            get { return this.telefone; }
-            set { this.telefone = value; }
+            get { return telefone; }
+            set { telefone = value; }
         }
 
     }

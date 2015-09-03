@@ -16,7 +16,7 @@ namespace MinhaAgenda
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AgendaFrm());
+            Application.Run(new PegarId());
         }
     }
 }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{69242C2B-C31D-45AB-ABAD-BCD865972E53}</ProjectGuid>
+    <ProjectGuid>{D43AE0E3-2431-4769-ABC5-B0A99A8EB15F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MinhaAgenda</RootNamespace>
@@ -46,42 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="model\Contato.cs" />
     <Compile Include="dao\ContatoDao.cs" />
-    <Compile Include="view\AdicionarFrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\AdicionarFrm.Designer.cs">
-      <DependentUpon>AdicionarFrm.cs</DependentUpon>
-    </Compile>
     <Compile Include="view\AgendaFrm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\AgendaFrm.Designer.cs">
       <DependentUpon>AgendaFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\PesquisarForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\PesquisarForm.Designer.cs">
-      <DependentUpon>PesquisarForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="model\Contato.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\Resultados.cs">
+    <Compile Include="view\AdicionarContatoForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Resultados.Designer.cs">
-      <DependentUpon>Resultados.cs</DependentUpon>
+    <Compile Include="view\AdicionarContatoForm.Designer.cs">
+      <DependentUpon>AdicionarContatoForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="view\AdicionarFrm.resx">
-      <DependentUpon>AdicionarFrm.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="view\PegarPorId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\PegarPorId.Designer.cs">
+      <DependentUpon>PegarPorId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\VisualizarRfm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\VisualizarRfm.Designer.cs">
+      <DependentUpon>VisualizarRfm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="view\AgendaFrm.resx">
       <DependentUpon>AgendaFrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\PesquisarForm.resx">
-      <DependentUpon>PesquisarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,9 +86,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="view\Resultados.resx">
-      <DependentUpon>Resultados.cs</DependentUpon>
+    <EmbeddedResource Include="view\AdicionarContatoForm.resx">
+      <DependentUpon>AdicionarContatoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\PegarPorId.resx">
+      <DependentUpon>PegarPorId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\VisualizarRfm.resx">
+      <DependentUpon>VisualizarRfm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
